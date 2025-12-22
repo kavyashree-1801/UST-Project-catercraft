@@ -54,7 +54,8 @@ if (isset($_SESSION['user_id'])) {
                         <input type="email" id="loginEmail" class="form-control mb-3" placeholder="Email" required>
 
                         <div class="position-relative mb-3">
-                            <input type="password" id="loginPassword" class="form-control" placeholder="Password" required>
+                            <input type="password" id="loginPassword" class="form-control" placeholder="Password" required
+                                   data-bs-toggle="tooltip" title="Enter your password. Click 👁 to show/hide.">
                             <span class="eye" data-toggle="loginPassword">👁</span>
                         </div>
 
@@ -78,12 +79,14 @@ if (isset($_SESSION['user_id'])) {
                         <textarea class="form-control mb-2" id="signupAddress" placeholder="Address" required></textarea>
 
                         <div class="position-relative mb-2">
-                            <input type="password" class="form-control" id="signupPassword" placeholder="Password" required>
+                            <input type="password" class="form-control" id="signupPassword" placeholder="Password" required
+                                   data-bs-toggle="tooltip" title="Password must be at least 6 characters. Click 👁 to show/hide.">
                             <span class="eye" data-toggle="signupPassword">👁</span>
                         </div>
 
                         <div class="position-relative mb-3">
-                            <input type="password" class="form-control" id="signupConfirm" placeholder="Confirm Password" required>
+                            <input type="password" class="form-control" id="signupConfirm" placeholder="Confirm Password" required
+                                   data-bs-toggle="tooltip" title="Re-enter your password. Click 👁 to show/hide.">
                             <span class="eye" data-toggle="signupConfirm">👁</span>
                         </div>
 
@@ -98,8 +101,8 @@ if (isset($_SESSION['user_id'])) {
     </div>
 </div>
 
-<script src="js/auth.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="js/auth.js"></script>
 
 </body>
 </html>
