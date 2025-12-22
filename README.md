@@ -106,7 +106,6 @@ catercraft/
 ├── logout.php                     # Logout
 │
 ├── product.php                     # Catering menu listing
-├── menu_details.php               # Menu / product details
 ├── my_orders.php                  # User orders
 ├── order_success.php              # Order confirmation page
 ├── profile.php                    # User profile
