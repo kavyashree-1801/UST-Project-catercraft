@@ -5,7 +5,7 @@ The application is built with PHP, MySQL, HTML, CSS, and JavaScript, following a
 
 ## 📸 Demo / Live Link
 🔗 Live Preview: 
-📂 Repository Link: https://github.com/kavyashree-1801/UST-Project-catercraft.git
+📂 Repository Link:https://github.com/kavyashree-1801/UST-Project-catercraft.git
 
 ## ✨ Features
 User Features
