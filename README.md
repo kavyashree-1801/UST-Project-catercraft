@@ -4,7 +4,7 @@ It allows users to explore catering services, place orders, and manage bookings,
 The application is built with PHP, MySQL, HTML, CSS, and JavaScript, following a clean and responsive design.
 
 ## 📸 Demo / Live Link
-🔗 Live Preview: https://github.com/user-attachments/assets/3d0c3db4-a7b5-4311-a080-51afbf7e3e18
+🔗 Live Preview: 
 📂 Repository Link: https://github.com/kavyashree-1801/UST-Project-catercraft.git
 
 ## ✨ Features
